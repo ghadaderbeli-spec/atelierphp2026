@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #234a73;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+a {
+    color: #1769aa;
+}
+
+.menu a,
+button {
+    display: inline-block;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    background: #1769aa;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.menu a:hover {
+    background: #104d80;
+}
+
+form {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #e8eef5;
+}
+
+.actions form {
+    display: inline-block;
+}
+
+.erreur {
+    color: #b00020;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 12px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 650px;
+    }
+}
