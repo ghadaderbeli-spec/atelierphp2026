@@ -1,0 +1,112 @@
+ {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    background: #f3f5f8;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 28px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+    color: #243b53;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccd2d8;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 18px;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2457a7;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #193f7b;
+}
+
+a {
+    color: #2457a7;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 24px 0;
+}
+
+.menu a {
+    padding: 10px 12px;
+    border-radius: 6px;
+    background: #e9effa;
+    text-decoration: none;
+}
+
+.erreur {
+    padding: 12px;
+    color: #a61b1b;
+    background: #fff0f0;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    overflow-wrap: anywhere;
+}
+
+th, td {
+    padding: 11px;
+    border: 1px solid #d8dee5;
+    text-align: left;
+}
+
+th {
+    background: #e9effa;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        margin: 10px auto;
+        padding: 16px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+}
