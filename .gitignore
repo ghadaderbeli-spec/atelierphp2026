@@ -1,1 +1,6 @@
 config.php
+
+# Fichiers sensibles et temporaires du TP6
+tp06-php/connexion_bdd.php
+tp06-php/test_bdd.php
+tp06-php/generer_hash.php
